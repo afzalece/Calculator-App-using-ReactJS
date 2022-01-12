@@ -13,6 +13,7 @@ function sub(){
 }
 function div(){
     let div = a / b;
+    div = div.toFixed(2);
     return div;
 }
 function multi(){
@@ -21,5 +22,5 @@ function multi(){
 }
 
 
-export default sum;
-export {sub,multi, div};
+// export default sum;
+export {sum, sub,multi, div};
